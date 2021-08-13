@@ -17,3 +17,7 @@ body {
 h5 {
   display: block;
 }
+
+select {
+  margin-bottom: 15px
+}
