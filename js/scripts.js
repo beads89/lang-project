@@ -24,7 +24,12 @@ $(document).ready(function() {
     let answer4 = parseInt($("#answer4").val());
     let answer5 = parseInt($("#answer5").val());
     let result = add(answer1, answer2, answer3, answer4, answer5);
-    // Add if else, for values and show 
+    // Add if else, for values and show based on sum of answers
+    // Sum of:
+    //  1-6 = C#
+    //  7-13 = Python
+    //  14-19 = JavaScript
+    //  20-25 = Swift
 
     //Hide questions and show results page
     $("#questions").fadeOut();
