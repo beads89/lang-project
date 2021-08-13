@@ -24,6 +24,7 @@ _This application asks the user a series of questions. Based on their answers, a
 * _If downloaded, extract .zip contents to desired directory_
 * _Navigate to and open folder_
 * _Open index.html_
+* _Also available for view via gh-pages https://beads89.github.io/lang-project/._
 
 
 ## Known Bugs
