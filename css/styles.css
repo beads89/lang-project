@@ -30,6 +30,10 @@ h5 {
   display: block;
 }
 
+h4 {
+  display: block;
+}
+
 select {
   margin-bottom: 15px
 }
