@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
-// Show intro page, when clicking "next" button, hide this and show questionaire 
+// Show intro page, when clicking "next" button, hide this and show questionnaire 
   $("form#intro").submit(function(e) {
     e.preventDefault();
-
+    $("#intro").hide();
+    $("#questions").show();
   })
 // If else statement that combines combination of answers or uses a point system to
 // determine what language will show up.
@@ -21,6 +22,5 @@ $(document).ready(function() {
 // Maybe add another button that takes them to intro if they want?
   $("form#results").submit(function(e) {
     e.preventDefault();
-
   })
 });
