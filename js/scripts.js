@@ -33,7 +33,6 @@ $(document).ready(function() {
     }
 
     $("#ironman").show().delay(11500).hide(1);
-    // $("#ironman").hide(12000);
     $("#questions").hide();
     $("#retakebtn, #resultheader").delay(11500).show(1);
   });
