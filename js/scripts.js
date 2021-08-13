@@ -33,18 +33,12 @@ $(document).ready(function() {
     }
 
     $("#questions").fadeOut();
-    $("#retakebtn").fadeIn();
-    $("#resultheader").fadeIn();
+    $("#retakebtn, #resultheader").fadeIn();
   });
 
   $("form#retakebtn").submit(function(e) {
     e.preventDefault();
-    $("#csharp").fadeOut();
-    $("#python").fadeOut();
-    $("#javascript").fadeOut();
-    $("#swift").fadeOut();
-    $("#retakebtn").fadeOut();
-    $("#resultheader").fadeOut();
+    $("#csharp, #python, #javascript, #swift, #retakebtn, #resultheader").fadeOut();
     $("#questions").fadeIn();
   });
 });
