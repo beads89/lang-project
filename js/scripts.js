@@ -24,17 +24,19 @@ $(document).ready(function() {
     let answer4 = parseInt($("#answer4").val());
     let answer5 = parseInt($("#answer5").val());
     let result = add(answer1, answer2, answer3, answer4, answer5);
-    // Add if else, for values 
+    // Add if else, for values and show 
 
     //Hide questions and show results page
     $("#questions").fadeOut();
-    $("#results").fadeIn();
+    $("#retakebtn").fadeIn();
+    $("#resultheader").fadeIn();
   });
 // Displays results, has a "try again" button to take user back to questionaire.
 // Maybe add another button that takes them to intro if they want?
-  $("form#results").submit(function(e) {
+  $("form#retakebtn").submit(function(e) {
     e.preventDefault();
-    $("#results").fadeOut();
+    $("#retakebtn").fadeOut();
+    $("#resultheader").fadeOut();
     $("#questions").fadeIn();
   })
 });
