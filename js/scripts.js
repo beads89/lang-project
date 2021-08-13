@@ -30,7 +30,6 @@ $(document).ready(function() {
     //  7-13 = Python
     //  14-19 = JavaScript
     //  20-25 = Swift
-
     //Hide questions and show results page
     $("#questions").fadeOut();
     $("#retakebtn").fadeIn();
