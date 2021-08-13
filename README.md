@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application asks the user a series of questions. Based on their answers, a programming language is suggested for them to learn. All questions and answers are not meant to be taken seriously. The purpose of this project is to apply the skills I learned in Week 2 of Epicodus._
+_This application asks the user a series of questions. Based on their answers, a programming language is suggested for them to learn. All questions and answers are not meant to be taken seriously. The purpose of this independent project is to apply the skills I learned in Week 2 of Epicodus._
 
 ## Technologies Used
 
@@ -35,8 +35,10 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT_
+
+Copyright (c) Brandon Eads
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_Brandon Eads - brandon181989@hotmail.com_
