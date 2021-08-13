@@ -10,7 +10,7 @@ select {
   display: none;
 }
 
-/* #csharp {
+#csharp {
   display: none;
 }
 
@@ -24,7 +24,7 @@ select {
 
 #swift {
   display: none;
-} */
+}
 
 #results {
   display: none;

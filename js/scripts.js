@@ -5,7 +5,7 @@ function add(answer1, answer2, answer3, answer4, answer5) {
 
 
 
-
+// Logic
 $(document).ready(function() {
 // Show intro page, when clicking "next" button, hide this and show questionnaire 
   $("form#intro").submit(function(e) {
@@ -30,6 +30,15 @@ $(document).ready(function() {
     //  7-13 = Python
     //  14-19 = JavaScript
     //  20-25 = Swift
+    if (result <= 6) {
+      $("#csharp").show();
+    } else if (result > 6 && result <= 13) {
+      $("#python").show();
+    } else if (result > 13 && result <= 19) {
+      $("#javascript").show();
+    } else if (result > 19) {
+      $("#swift").show();
+    }
     //Hide questions and show results page
     $("#questions").fadeOut();
     $("#retakebtn").fadeIn();
@@ -39,6 +48,10 @@ $(document).ready(function() {
 // Maybe add another button that takes them to intro if they want?
   $("form#retakebtn").submit(function(e) {
     e.preventDefault();
+    $("#csharp").fadeOut();
+    $("#python").fadeOut();
+    $("#javascript").fadeOut();
+    $("#swift").fadeOut();
     $("#retakebtn").fadeOut();
     $("#resultheader").fadeOut();
     $("#questions").fadeIn();
