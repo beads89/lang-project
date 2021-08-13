@@ -20,22 +20,19 @@ _This application asks the user a series of questions. Based on their answers, a
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download or clone github repository to local machine in desired directory_
+* _If downloaded, extract .zip contents to desired directory_
+* _Navigate to and open folder_
+* _Open index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? Does it require building packages? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs, please contact if any are found._
 
 ## License
 
-_MIT_
+MIT
 
 Copyright (c) Brandon Eads
 
