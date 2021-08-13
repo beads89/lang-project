@@ -10,7 +10,7 @@ $(document).ready(function() {
   $("form#intro").submit(function(e) {
     e.preventDefault();
     $("#intro").hide();
-    $("#questions").fadeIn();
+    $("#questions").show();
   });
 
   $("form#questions").submit(function(e) {
@@ -23,17 +23,19 @@ $(document).ready(function() {
     let result = add(answer1, answer2, answer3, answer4, answer5);
 
     if (result <= 6) {
-      $("#csharp").show();
+      $("#csharp").delay(11500).show(1);
     } else if (result > 6 && result <= 13) {
-      $("#python").show();
+      $("#python").delay(11500).show(1);
     } else if (result > 13 && result <= 19) {
-      $("#javascript").show();
+      $("#javascript").delay(11500).show(1);
     } else if (result > 19) {
-      $("#swift").show();
+      $("#swift").delay(11500).show(1);
     }
 
-    $("#questions").fadeOut();
-    $("#retakebtn, #resultheader").fadeIn();
+    $("#ironman").show().delay(11500).hide(1);
+    // $("#ironman").hide(12000);
+    $("#questions").hide();
+    $("#retakebtn, #resultheader").delay(11500).show(1);
   });
 
   $("form#retakebtn").submit(function(e) {
